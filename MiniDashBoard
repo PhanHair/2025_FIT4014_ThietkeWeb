@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <style>
+            body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1d1c1c;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.info-box {
+    float: left;
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    background-color: #e6f9ff;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+#notification {
+    float: right;
+    width: 120px;
+    margin: 10px;
+}
+
+#notification .item {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#notification .notice {
+    background-color: yellow;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#notification .support {
+    background-color: #8ad1f5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+    </head>
+    <body>
+    <nav>
+        <a href="">Trang chủ</a>
+        <a href="">Bảng điểm</a>
+        <a href="">Liên hệ</a>
+    </nav>
+
+    <div class="info-box">Sĩ số: 40</div>
+    <div class="info-box">Điểm cao: 9.5</div>
+    <div class="info-box">TB: 7.2</div>
+
+    <div id="notification">
+        <div class="item notice">Thông báo</div>
+        <div class="item support">Hỗ trợ</div>
+    </div>
+
+    <table>
+        <tr>
+            <th>Họ tên</th>
+            <th>Toán</th>
+            <th>Văn</th>
+            <th>Anh</th>
+        </tr>
+        <tr>
+            <td>Nguyễn An</td>
+            <td>9</td>
+            <td>8</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Trần Bình</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Lê Cường</td>
+            <td>8</td>
+            <td>9</td>
+            <td>9</td>
+        </tr>
+    </table>
+</body>
+</html>
